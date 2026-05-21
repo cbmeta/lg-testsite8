@@ -12,7 +12,20 @@
 
 
 
-
+<!-- Signals Gateway Pixel Code -->
+    <script>
+    !function(a,h,e,v,n,t,s){
+      if(a.cbq)return;
+      n=a.cbq=function(){n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments);};
+      if(!a._cbq)a._cbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];
+      t=h.createElement(e);t.async=!0; t.src=v;s=h.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s);
+    }(window, document,'script', 'https://sgw-cr-lg520.cb6internal.org/sdk/7172029658877492720/events.js');
+    cbq('setHost', 'https://sgw-cr-lg520.cb6internal.org/');
+    cbq('init', '7172029658877492720');
+    cbq('track', 'PageView');
+    </script>
+  <!-- End Signals Gateway Pixel Code -->
 
 <!-- Signals Gateway Pixel Code -->
     <script>
@@ -60,7 +73,7 @@
   <li><button id="purchaseNoValueButton" type="button">Purchase With No Value (x10)</button></li>
 </ul></div>
 <script type="text/javascript">
-  for(var i = 0; i < 500; i++) {
+  for(var i = 0; i < 100; i++) {
 document.getElementById('siteButton').addEventListener('click', function() {cbq('track', 'Site8')}, false);
 document.getElementById('addToWishlistButton').addEventListener('click', function() {cbq('track', 'AddToWishlist'); }, false);
 document.getElementById('addToCartButton').addEventListener('click', function() {cbq('track', 'AddToCart');}, false);
